@@ -1,0 +1,2 @@
+# webAssets 
+*** Production Assests ***
