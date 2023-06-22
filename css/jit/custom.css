@@ -1,0 +1,315 @@
+.totalComprobante {
+	font-size: 30px;
+	/* background-color: #3c72ca; */
+	color: #fff;
+}
+
+.el-date-editor .el-range__icon {
+	line-height: 0px !important;
+}
+
+.el-date-editor .el-range__close-icon {
+	display: none !important;
+}
+
+.el-input__suffix {
+	display: none !important;
+}
+
+.badge-contacto {
+	background-color:#4e6be1;
+	color: white;
+}
+
+.form-group.has-danger .error,
+.input-group.has-danger .error {
+	color: tomato !important;
+	font-size: medium;
+}
+
+.cell .deleted {
+	text-decoration: line-through;
+	color: tomato !important;
+}
+
+.current-row {
+	background-color: rgb(222 79 205 / 39%) !important;
+	border-color: #41b480 !important;
+	border-width: 1px !important;
+}
+.el-table__body tr.current-row>td.el-table__cell {
+	background-color: rgb(222 79 205 / 39%) !important;
+	border-color: #41b480 !important;
+	border-width: 1px !important;
+}
+
+.is-disabled  {
+	background-color: transparent !important;
+}
+.el-range-editor.is-disabled input {
+		background-color: transparent !important;
+}
+
+.text-muted2 {
+	color: #a1a1a1 !important;
+}
+
+.line-gray {
+	border-color: #2e66f5a8 !important;
+}
+
+.tab-space {
+	padding-bottom: 0 !important;
+}
+
+.nuxt-link-active {
+	color: #f5f5f5;
+	background-color: #c154b0;
+}
+
+.el-table__empty-block {
+  height: 10% !important;
+}
+/* dark opa */
+.bg-dark-svg {
+  /* background-color: #344675; */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23344675' fill-opacity='0.12'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* light opa */
+.bg-light-svg {
+  /* background-color: #f5f6fa; */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23344675' fill-opacity='0.03'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* SCROLL BAR */
+html {
+  overflow: auto;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #6d6d6d;
+}
+
+/* DROPZONE */
+.dropzone {
+  background: rgba(255, 255, 255, 0) !important;
+
+  border: 2px dashed rgb(0, 135, 247) !important;
+  border-image: none !important;
+  /* max-width: 500px; */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px !important;
+}
+
+.dz-details {
+  border-radius: 20px !important;
+}
+
+/* ELEMENT UI DATA TABLE */
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+  background: transparent !important;
+}
+
+.el-table.el-table--enable-row-hover table.el-table__body tr:hover > td {
+  cursor: pointer;
+  background: #2dce880e !important;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped {
+  background: rgba(0, 135, 247, 0.089);
+}
+
+.el-table__header-wrapper {
+  background-color: transparent;
+}
+
+.el-table th.el-table__cell {
+  background-color: transparent !important;
+}
+
+.el-table__footer-wrapper tbody td.el-table__cell,
+.el-table__header-wrapper tbody td.el-table__cell {
+  background-color: transparent !important;
+}
+
+.el-table td.el-table__cell,
+.el-table th.el-table__cell.is-leaf {
+  border-bottom: transparent !important;
+}
+
+.el-date-editor .el-range__close-icon {
+  display: none;
+}
+
+.el-table .cell {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.el-range-editor.is-disabled input {
+  background-color: transparent;
+}
+
+.el-range-editor.is-disabled {
+  background-color: transparent;
+}
+
+.factura-table {
+  min-height: 694px;
+}
+.el-table__footer-wrapper tbody td,
+.el-table__header-wrapper tbody td {
+  background: rgba(86, 156, 246, 0.089);
+  text-align: right;
+}
+
+.el-range-editor .el-range-input {
+  background-color: transparent;
+}
+
+.el-button {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 11px 40px;
+  font-size: 0.875rem;
+  line-height: 1.35em;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  border-width: 2px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  margin: 4px 1px;
+  border-radius: 0.4285rem;
+}
+
+.el-icon-search:before {
+  margin-right: 20px;
+}
+
+.form-control,
+.form-group .el-input__inner,
+.el-date-picker .el-input .el-input__inner {
+  border-color: #4e6172 !important;
+	padding: 10px 18px 10px 21px !important;
+}
+
+.select-success.el-select .el-input input {
+  border-color: #4e6172 !important;
+}
+
+/* Transiciones */
+.fade-enter-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-leave-active,
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-leave-active,
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.bootstrap-switch-off {
+  background-color: #d750d6;
+}
+
+.bootstrap-switch-on {
+  background-color: #41b480;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+	background-color: #41b48057;
+}
+
+.form-control[disabled],
+.form-group .el-input__inner[disabled],
+.el-date-picker .el-input .el-input__inner[disabled],
+.form-control[readonly],
+.form-group .el-input__inner[readonly],
+.el-date-picker .el-input .el-input__inner[readonly],
+fieldset[disabled] .form-control,
+fieldset[disabled] .form-group .el-input__inner,
+.form-group fieldset[disabled] .el-input__inner,
+fieldset[disabled] .el-date-picker .el-input .el-input__inner,
+.el-date-picker .el-input fieldset[disabled] .el-input__inner {
+	color: #949caf !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+
+.el-table__footer-wrapper tbody td.el-table__cell,
+.el-table__header-wrapper tbody td.el-table__cell {
+	text-align: right !important;
+	background-color: #c154b14c !important;
+}
+
+.switch-color {
+	color: #525f7f;
+}
+
+.nc {
+	background-color: #fd5d9338 !important;
+}
+
+.multiline-cell {
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+.cursorLink{
+	cursor: pointer;
+}
